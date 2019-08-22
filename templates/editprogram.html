@@ -1,0 +1,46 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+
+<h2>Edit a Program</h2>
+<p>Make any changes you feel are required to the program:</p>
+<hr>
+
+<form action="{{ url_for('insert_program') }}" method="POST">
+    <fieldset>
+
+        <div class="form-group">
+            <input type="text" class="form-control" id="program_name" name="program_name" value="{{program.program_name}}">
+                <small id="programHelp" class="form-text text-muted">Enter the name of the program/film.</small>
+        </div>
+    
+        <div class="form-group">
+            <select class="form-control" id="category_name" name="category_name">
+               {% for cat in categories %}
+                    {% if cat.category_name == program.category_name %}
+                        <option value="{{cat.category_name}}" selected>{{cat.category_name}}</option>
+                    {% else %}
+                        <option value="{{cat.category_name}}">{{cat.category_name}}</option>
+                    {% endif %}
+                {% endfor %}
+            </select>
+                <small id="programHelp" class="form-text text-muted">Choose the category.</small>
+        </div>
+    
+        <div class="form-group">
+            <textarea class="form-control" id="program_description" name="program_description" rows="7" placeholder="Description">{{program.program_description}}</textarea>
+        </div>
+    
+        <div class="form-group">
+            <input type="date" class="form-control" id="date_on" name="date_on" aria-describedby="dateHelp" placeholder="dd/mm/yyyy">
+            <small class="form-text text-muted">When is it on?</small>
+        </div>
+    
+        <button type="submit" class="btn btn-success">Update Program</button>
+        <a href="{{ url_for('get_programs') }}" class="btn btn-secondary">
+                Cancel
+            </a>
+    </fieldset>
+</form>
+
+{% endblock %}

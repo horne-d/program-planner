@@ -1,0 +1,21 @@
+html, body {
+    background: linear-gradient(-45deg, #DEC5C5 50%, #ffffff 50%);
+    font-family: 'Dosis', sans-serif;
+}
+
+#content_section {
+    height: 100%;
+    padding: 20px 0;
+}
+
+.content_picture {
+    color: #EB6864;
+    margin: 10px;
+}
+
+#footer_section {
+    background-color: #EB6864;
+    padding: 20px;
+    margin-top: 10px;
+    bottom: 0;
+}
