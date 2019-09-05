@@ -89,6 +89,6 @@ def new_category():
     return render_template('addcategory.html')    
     
 if __name__ == '__main__':
-    app.run(host=os.environ.get('IP'),
+    app.run(host='0.0.0.0',
         port=int(os.environ.get('PORT')),
         debug=True)
