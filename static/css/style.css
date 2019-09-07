@@ -19,3 +19,15 @@ html, body {
     margin-top: 10px;
     bottom: 0;
 }
+
+.table {
+    background: #ffffff !important;
+}
+
+.table thead th {
+    background: #c3c3c3 !important;
+}
+
+.btn {
+    padding: 2px 7px !important;
+}
