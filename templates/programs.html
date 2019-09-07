@@ -8,20 +8,44 @@
             <i class="fas fa-tv fa-7x content_picture"></i>
             <hr>
                 <p>Add your favourite must watch programs, make a note when they are on.</p>
-                
+
                 <p>You can manage the programs, edit and delete existing programs. You can also add and edit existing categories if you do not see one which matches your program.</p>
-                
+
                 <p>To edit an existing program, look out for the <i class="fas fa-pencil-alt"></i> icon. You can also delete programs which you no longer wish to see by pressing the <i class="fas fa-trash-alt"></i> icon.</p>
-                
+
                 <p>You can <a href="{{url_for('add_program')}}" class="btn btn-primary btn-sm">Add a Program</a> or <a href="{{url_for('get_categories')}}" class="btn btn-primary btn-sm">Add a category</a> by following the links, and following the instructions on the page.</p>
-                
+
                 <p>Ready to get going? See the current programs below, or go straight into adding your own...</p>
                 <p><a href="#programs" class="btn btn-success btn-sm">View the Programs</a></p>
                 <hr>
     </div>
     <div class="col-lg-12 col-md-12 col-sm-12" id="programs">
         <h2>Programs</h2>
-            <hr>
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Genre</th>
+                    <th scope="col">Date On</th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for program in programs %}
+                <tr>
+                    <td>{{program.program_name}}</td>
+                    <td>{{program.program_description}}</td>
+                    <td>{{program.category_name}}</td>
+                    <td>{{program.date_on}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+
+            <!-- <hr>
                 {% for program in programs %}
             <div class="card text-center">
                 <div class="card-body">
@@ -34,7 +58,7 @@
                     {{program.category_name}} / {{program.date_on}}
                 </div>
             </div>
-            {% endfor %}
+            {% endfor %} -->
     </div>
 </div>
 
