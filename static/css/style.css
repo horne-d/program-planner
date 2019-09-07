@@ -25,6 +25,9 @@ html, body {
 
 .table thead th {
     background: #c3c3c3 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: none !important;
 }
 
 .btn {
@@ -44,8 +47,7 @@ html, body {
 .btn-danger.editbtn:hover {
     color: #ffffff !important;
     background-color: #F57A00 !important;
-    border: 2px solid #ffffff !important;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .btn-primary.deletebtn {
@@ -61,6 +63,5 @@ html, body {
 .btn-primary.deletebtn:hover {
     color: #ffffff !important;
     background-color: #EB6864 !important;
-    border: 2px solid #ffffff !important;
-    transition: 1s;
+    transition: 0.7s;
 }
