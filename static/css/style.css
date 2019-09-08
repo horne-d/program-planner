@@ -25,10 +25,6 @@ h2 {
     margin-top: 20px;
 }
 
-h2.addbtn {
-    text-align: right;
-}
-
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
@@ -108,4 +104,14 @@ td.options {
     color: #ffffff !important;
     background-color: #EB6864 !important;
     transition: 0.7s;
+}
+
+.btn-success.addbtn {
+    color: #22b24c !important;
+    background-color: #ffffff !important;
+    border: 2px solid #22b24c !important;
+    border-radius: 50% !important;
+    height: 31px !important;
+    width: 31px !important;
+    font-size: 14px !important;
 }
