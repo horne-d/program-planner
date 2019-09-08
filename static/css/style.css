@@ -1,5 +1,13 @@
 html, body {
     font-family: 'Dosis', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
 
 #content_section {
@@ -17,6 +25,8 @@ html, body {
     padding: 20px;
     margin-top: 10px;
     bottom: 0;
+    width: 100vw;
+    position: fixed;
 }
 
 .table {
