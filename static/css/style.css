@@ -5,6 +5,10 @@ html, body {
     margin: 0;
 }
 
+h2 {
+    margin-top: 20px;
+}
+
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
