@@ -62,7 +62,13 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
 <script type="text/javascript">
-    moment('2017-09-28T21:45:23Z').format('L')
+
+$(document).ready(function() {
+    var now = moment();
+
+    $('#date').text(now.format('LLL'));
+});
+
 
 </script>
 </body>
