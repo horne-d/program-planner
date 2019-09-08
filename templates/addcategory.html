@@ -1,21 +1,24 @@
-{% extends 'base.html'%} 
+{% extends 'base.html'%}
     {% block content %}
-    
+
 <h2>Add a Category</h2>
-<hr>
+    <hr>
+        <form action="{{ url_for('insert_category') }}" method="POST">
+            <fieldset>
 
-<form action="{{ url_for('insert_category') }}" method="POST">
-    <fieldset>
+                <div class="form-group">
+                    <input class="form-control" id="category_name" name="category_name" type="text" placeholder="Enter category name">
+                </div>
 
-        <div class="form-group">
-            <input class="form-control" id="category_name" name="category_name" type="text" placeholder="Enter category name">                
-        </div>
-    
-        <button type="submit" name="action" class="btn btn-success">Add Category</button>
-            <a href="{{ url_for('get_categories') }}" class="btn btn-secondary">
-                Cancel
-            </a>
-    </fieldset>
-</form>    
+                <button type="submit" name="action" class="btn btn-success">Add Category</button>
+                    <a href="{{ url_for('get_categories') }}" class="btn btn-secondary">
+                        Cancel
+                    </a>
+            </fieldset>
+        </form>
+    <hr>
+        {% for category in categories %}
+        <span class="badge badge-secondary">{{category.category_name}}</span>
+        {% endfor %}  
 
 {% endblock %}
