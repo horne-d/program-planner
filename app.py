@@ -40,6 +40,7 @@ def update_program(program_id):
         'program_name': request.form.get['program_name'],
         'category_name': request.form.get['category_name'],
         'program_description': request.form.get['program_description'],
+        'display_name': request.form.get['display_name'],
         'date_on': request.form.get['date_on'],
         'must_watch': request.form.get['must_watch']
     })
@@ -87,7 +88,7 @@ def insert_category():
 @app.route('/new_category')
 def new_category():
     return render_template('addcategory.html',
-    categories=mongo.db.categories.find())    
+    categories=mongo.db.categories.find())
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',
