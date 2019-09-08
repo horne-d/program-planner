@@ -6,6 +6,12 @@ html, body {
     scroll-behavior: smooth;
 }
 
+h1 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
 h2 {
     margin-top: 20px;
 }
