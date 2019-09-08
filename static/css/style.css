@@ -114,4 +114,13 @@ td.options {
     height: 31px !important;
     width: 31px !important;
     font-size: 14px !important;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+
+.btn-success.addbtn:hover {
+    color: #ffffff !important;
+    background-color: #22b24c !important;
+    transition: 0.7s;
 }
