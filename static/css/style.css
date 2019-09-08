@@ -25,6 +25,10 @@ h2 {
     margin-top: 20px;
 }
 
+h2.addbtn {
+    text-align: right;
+}
+
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
