@@ -1,5 +1,3 @@
-Project 3 for Code Institute
-
 # Program Planner
 This program planner is an easy way to store films or TV programs that you are eager to watch. This allows you to enter the name of the film/program, when its on, and also categorise this into different genres such as film, sports, entertainment or arts. If you do not see the category you would like, then you are able to add your own category.
 
