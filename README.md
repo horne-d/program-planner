@@ -13,6 +13,10 @@ Included on the homepage, I also included details on how to use the planner, and
 
 ## Mockups & Design
 
+![Image](image path)
+![Image](image path)
+![Image](image path)
+
 ## Features
 ### Responsive
 > The application is responsive which is what I wanted to achieve. This means you can view this on a desktop, tablet or phone.
