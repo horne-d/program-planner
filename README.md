@@ -14,7 +14,7 @@ Included on the homepage, I also included details on how to use the planner, and
 ## Mockups & Design
 
 ![Mockup Homepage](Capture.JPG)
-![Phone Mockup](phone mockup.png)
+![Phone Mockup](phonemockup.png)
 
 
 ## Features
