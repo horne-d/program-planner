@@ -13,7 +13,7 @@ Included on the homepage, I also included details on how to use the planner, and
 
 ## Mockups & Design
 
-![Image](image path)
+![Mockup](capture.jpg)
 ![Image](image path)
 ![Image](image path)
 
