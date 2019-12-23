@@ -49,7 +49,7 @@ def update_program(program_id):
 @app.route('/delete_program/<program_id>')
 def delete_program(program_id):
     mongo.db.programs.remove({'_id': ObjectId(program_id)})
-    return redirect(url_for('get_programs'))
+    return redirect(url_for('#programs'))
 
 @app.route('/get_categories')
 def get_categories():
@@ -93,4 +93,4 @@ def new_category():
 if __name__ == '__main__':
     app.run(host='0.0.0.0',
         port=int(os.environ.get('PORT', 5000)),
-        debug=True)
+        debug=False)
