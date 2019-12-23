@@ -185,3 +185,7 @@ td.options {
 .card img {
     max-width: 100%;
 }
+
+.card-columns {
+    column-count: 4 !important;
+}
