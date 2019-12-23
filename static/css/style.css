@@ -74,13 +74,13 @@ button.btn.btn-primary.infoSect {
     letter-spacing: 0.5px;
 }
 
-i.fa-tv {
-    opacity: 0.5;
-    z-index: -1;
-}
-
 h2 {
     margin-top: 20px;
+    font-family: 'Satisfy', cursive;
+}
+
+.container-fluid.programs-section {
+    margin-top: 80px;
 }
 
 .row {
