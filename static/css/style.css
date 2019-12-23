@@ -123,3 +123,7 @@ td.options {
     background-color: #22b24c !important;
     transition: 0.7s;
 }
+
+.card img {
+    max-width: 100%;
+}
