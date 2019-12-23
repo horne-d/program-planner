@@ -6,6 +6,12 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.title-screen {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('static/images/televisionbg.jpg');
+}
+
 h1 {
     width: 100%;
     position: absolute;
