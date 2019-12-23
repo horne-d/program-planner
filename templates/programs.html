@@ -27,7 +27,7 @@
             <a href="{{url_for('add_program')}}" class="btn btn-success addbtn"><i class="fas fa-plus"></i></a>
         </h2>
 
-        <table class="table table-hover table-sm">
+<!--         <table class="table table-hover table-sm">
             <thead>
                 <tr>
                     <th scope="col">Title</th>
@@ -55,7 +55,17 @@
                 </tr>
                 {% endfor %}
             </tbody>
-        </table>
+        </table> -->
+    {% for program in programs %}   
+    <div class="card" style="width: 18rem;">
+        <img src="{{program.program_image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{program.program_name}}</h5>
+            <p class="card-text">{{program.program_description}}</p>
+            <p class="">{{program.category_name}}</p>
+        </div>
+    </div>
+    {% endfor %}
 
     </div>
 </div>
