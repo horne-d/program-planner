@@ -33,7 +33,14 @@ h1 {
 
 .downarrowprograms {
     position: absolute;
-    
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+}
+
+i.fas.fa-chevron-down {
+    color: #ffffff !important;
+    font-size: 30px;
 }
 
 .bg-primary {
