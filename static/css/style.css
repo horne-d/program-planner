@@ -76,10 +76,10 @@ button.btn.btn-primary.infoSect {
 
 h2 {
     margin-top: 20px;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Satisfy', cursive !important;
 }
 
-.container-fluid.programs-section {
+.programs-section {
     margin-top: 80px;
 }
 
