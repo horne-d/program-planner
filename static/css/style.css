@@ -27,8 +27,15 @@ h1 {
 }
 
 .bg-primary {
-    background-color: rgba(0,0,0,0.5) !important;
-    color: white !important;
+    background-color: rgba(255,255,255,0.5) !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #000000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0) !important;
 }
 
 i.fa-tv {
