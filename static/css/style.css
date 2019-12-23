@@ -11,7 +11,7 @@ html, body {
     height: 100vh;
     width: 100vw;
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('../images/televisionbg.jpg');
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('../images/televisionbg.jpg'); /* The least supported option. */
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('../images/televisionbg.jpg');
     /* background-image: url('../images/televisionbg.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,9 +135,9 @@ td.options {
 }
 
 .btn-danger.editbtn {
-    color: #f57a00 !important;
+    color: #3c3c3c !important;
     background-color: #ffffff !important;
-    border: 2px solid #F57A00 !important;
+    border: 2px solid #3c3c3c !important;
     border-radius: 50% !important;
     height: 31px !important;
     width: 31px !important;
@@ -151,9 +151,9 @@ td.options {
 }
 
 .btn-primary.deletebtn {
-    color: #eb6864 !important;
+    color: #3c3c3c !important;
     background-color: #ffffff !important;
-    border: 2px solid #EB6864 !important;
+    border: 2px solid #3c3c3c !important;
     border-radius: 50% !important;
     height: 31px !important;
     width: 31px !important;
@@ -167,9 +167,9 @@ td.options {
 }
 
 .btn-success.addbtn {
-    color: #22b24c !important;
+    color: #3c3c3c !important;
     background-color: #ffffff !important;
-    border: 2px solid #22b24c !important;
+    border: 2px solid #3c3c3c !important;
     border-radius: 50% !important;
     height: 31px !important;
     width: 31px !important;
