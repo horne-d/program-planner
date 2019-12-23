@@ -13,12 +13,6 @@ Included on the homepage, I also included details on how to use the planner, and
 
 > "As a user, I would like to be able to use the application on both computer and mobile devices."
 
-## Mockups & Design
-
-![Mockup Homepage](static/images/Capture.JPG)
-![Phone Mockup](static/images/phonemockup.png)
-
-
 ## Features
 ### Responsive
 > The application is responsive which is what I wanted to achieve. This means you can view this on a desktop, tablet or phone.
@@ -44,7 +38,8 @@ I decided to layout each program within a table set. This allowed an easy to rea
 
 I used Adobe XD to put together some initial design ideas, along with the final design:
 
-PUT MOCKUPS HERE
+![Mockup Homepage](static/images/Capture.JPG)
+![Phone Mockup](static/images/phonemockup.png)
 
 # Technology & Languages Used
 ### HTML
