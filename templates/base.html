@@ -43,6 +43,41 @@
         </div>
 </nav>
 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infoPopup">
+    <i class="fas fa-info-circle"></i>
+</button>
+
+<div class="modal fade" id="infoPopup" tabindex="-1" role="dialog" aria-labelledby="infoPopupLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="infoPopupLabel">Quick Help!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="desc-content">
+                    <p>Add your favourite must watch programs, make a note when they are on.</p>
+
+                    <p>You can manage the programs, edit and delete existing programs. You can also add and edit existing categories if you do not see one which matches your program.</p>
+
+                    <p>To edit an existing program, look out for the <i class="fas fa-pencil-alt"></i> icon. You can also delete programs which you no longer wish to see by pressing the <i class="fas fa-trash-alt"></i> icon.</p>
+
+                    <p>You can <a href="{{url_for('add_program')}}" class="btn btn-primary btn-sm">Add a Program</a> or <a href="{{url_for('get_categories')}}" class="btn btn-primary btn-sm">Add a category</a> by following the links, and following the instructions on the page.</p>
+
+                    <p>Ready to get going? See the current programs below, or go straight into adding your own...</p>
+                    <p><a href="#programs" class="btn btn-success btn-sm">View the Programs</a></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--------------- Main Section --------------->
 
     {% block content %}
@@ -62,7 +97,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
 <script type="text/javascript">
 
-$('#myModal').modal(options)
+$('#infoPopup').modal(options)
 
 </script>
 </body>
