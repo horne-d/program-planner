@@ -6,10 +6,12 @@ I wanted to make sure the user could navigate and use the app with ease and simp
 
 Included on the homepage, I also included details on how to use the planner, and key points the user will need to navigate through the app successfully.
 
-## User Comments
-> "It would be ideal to have a place to add all the programs you wanted to watch, quickly and easily, without any fuss."
+## User Stories
+> "As a user, I want to be able to be able to store all my favourite programs in one place."
 
-> "When out with friends, you often get told about programs or films to watch. It is easy to forget what was mentioned, and then missing out on something you could potentially enjoy."
+> "As a user, I want to be able to create a list of must watch programs recommended by friends and family."
+
+> "As a user, I would like to be able to use the application on both computer and mobile devices."
 
 ## Mockups & Design
 
