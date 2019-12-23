@@ -127,10 +127,6 @@ h2 {
     border-bottom: none !important;
 }
 
-td.options {
-    text-align: right;
-}
-
 .btn {
     padding: 2px 7px !important;
 }
@@ -187,6 +183,13 @@ td.options {
 
 .card img {
     max-width: 100%;
+}
+
+span.category {
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 5px;
+    font-style: italic;
 }
 
 .card-columns {
