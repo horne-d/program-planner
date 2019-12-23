@@ -80,7 +80,7 @@ h2 {
 }
 
 .programs-section {
-    margin-top: 80px;
+    padding-top: 80px;
 }
 
 .row {
@@ -184,14 +184,4 @@ td.options {
 
 .card img {
     max-width: 100%;
-}
-
-@media (min-width: 576px)
-.card-columns {
-    -webkit-column-count: 4;
-    column-count: 4;
-    -webkit-column-gap: 0 !important;
-    column-gap: 0 !important;
-    orphans: 1;
-    widows: 1;
 }

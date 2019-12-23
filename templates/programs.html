@@ -16,7 +16,7 @@
 
             <div class="card-columns">
             {% for program in programs %}
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="{{program.program_image}}" onerror="this.src='/static/images/default.jpg'">
                     <div class="card-body">
                         <h5 class="card-title">{{program.program_name}}</h5>
