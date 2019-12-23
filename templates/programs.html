@@ -19,9 +19,9 @@
                 <div class="card">
                     <img src="{{program.program_image}}" onerror="this.src='/static/images/default.jpg'">
                     <div class="card-body">
-                        <h5 class="card-title">{{program.program_name}}</h5>
+                        <h5 class="card-title">{{program.program_name}}</h5><span>{{program.category_name}}</span>
                         <p class="card-text">{{program.program_description}}</p>
-                        <p class="">{{program.category_name}}</p>
+                        <p class="">{{program.date_on}}</p>
                     </div>
                     <div class="card-footer">
                         <a href="{{url_for('edit_program', program_id=program._id)}}" class="btn btn-danger editbtn"><i class="fas fa-pencil-alt"></i></a>
