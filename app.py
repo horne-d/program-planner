@@ -21,7 +21,7 @@ def add_program():
     categories=mongo.db.categories.find())
 
 @app.route('/get_help')
-def add_program():
+def get_help():
     return render_template('help.html')
 
 @app.route('/insert_program', methods=['POST'])
