@@ -20,6 +20,10 @@ def add_program():
     return render_template('addprogram.html',
     categories=mongo.db.categories.find())
 
+@app.route('/get_help')
+def add_program():
+    return render_template('help.html')
+
 @app.route('/insert_program', methods=['POST'])
 def insert_program():
     programs = mongo.db.programs
