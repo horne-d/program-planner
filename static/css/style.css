@@ -46,17 +46,6 @@ i.fas.fa-chevron-down {
     font-size: 30px;
 }
 
-button.btn.btn-primary.infoSect {
-    position: sticky;
-    top: 20%;
-    float: right;
-    z-index: 3;
-    background: white;
-    color: black;
-    border: none;
-    border-radius: 15px 0 0 15px;
-}
-
 .bg-primary {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -113,17 +102,6 @@ h2 {
     width: 100%;
 }
 
-.table {
-    background-color: #ffffff !important;
-}
-
-.table thead th {
-    background: #c3c3c3 !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: none !important;
-}
-
 .btn {
     padding: 2px 7px !important;
 }
@@ -131,8 +109,8 @@ h2 {
 .btn-danger.editbtn {
     color: #3c3c3c !important;
     background-color: #ffffff !important;
-    border: 2px solid #3c3c3c !important;
-    border-radius: 50% !important;
+    border: 1px solid #3c3c3c !important;
+    border-radius: 0 !important;
     height: 31px !important;
     width: 31px !important;
     font-size: 14px !important;
@@ -147,8 +125,8 @@ h2 {
 .btn-primary.deletebtn {
     color: #3c3c3c !important;
     background-color: #ffffff !important;
-    border: 2px solid #3c3c3c !important;
-    border-radius: 50% !important;
+    border: 1px solid #3c3c3c !important;
+    border-radius: 0 !important;
     height: 31px !important;
     width: 31px !important;
     font-size: 14px !important;
@@ -163,8 +141,8 @@ h2 {
 .btn-success.addbtn {
     color: #3c3c3c !important;
     background-color: #ffffff !important;
-    border: 2px solid #3c3c3c !important;
-    border-radius: 50% !important;
+    border: 1px solid #3c3c3c !important;
+    border-radius: 0 !important;
     height: 31px !important;
     width: 31px !important;
     font-size: 14px !important;
