@@ -8,10 +8,15 @@ Included on the homepage, I also included details on how to use the planner, and
 
 ## User Stories
 > "As a user, I want to be able to be able to store all my favourite programs in one place."
+
 > "As a user, I want to be able to create a list of must watch programs recommended by friends and family."
+
 > "As a user, I would like to be able to use the application on both computer and mobile devices."
+
 > "As a user, I would like the option to add / edit / delete programs to the application."
+
 > "As a user, I would like to be able add / edit / delete categories, which can be used when adding a program."
+
 
 ## Features
 ### Responsive
