@@ -200,14 +200,14 @@ p.help-answer {
         column-count: 1;
     }
     .title-screen h1 {
-        font-size: 80px;
-        line-height: 75px;
+        font-size: 80px !important;
+        line-height: 75px !important;
     }
     .bg-primary {
         background-color: rgba(0,0,0) !important;
     }
     li.nav-item {
-        padding: 10px 0;
+        padding: 10px 0 !important;
     }
 }
 
