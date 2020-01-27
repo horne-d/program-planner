@@ -7,6 +7,16 @@ html, body {
     scroll-behavior: smooth;
 }
 
+.content-wrapper {
+    min-height: 100%;
+    position: relative;
+    height: auto;
+}
+
+div#main-content {
+    padding-bottom: 40px;
+}
+
 .title-screen {
     height: 100%;
     width: 100%;
@@ -100,7 +110,7 @@ h2 {
     margin-top: 10px;
     bottom: 0;
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .btn {
