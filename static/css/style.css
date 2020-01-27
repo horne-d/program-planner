@@ -195,19 +195,22 @@ p.help-answer {
     font-style: italic;
 }
 
-@media (min-width: 576px) {
-    .card-columns {
-        column-count: 1;
-    }
+@media only screen and (max-width: 600px) {
     .title-screen h1 {
-        font-size: 80px !important;
-        line-height: 75px !important;
+        font-size: 80px;
+        line-height: 75px;
     }
     .bg-primary {
         background-color: rgba(0,0,0) !important;
     }
     li.nav-item {
-        padding: 10px 0 !important;
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-columns {
+        column-count: 1;
     }
 }
 
