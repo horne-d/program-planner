@@ -1,7 +1,7 @@
 {% extends 'base.html'%}
     {% block content %}
 
-<div class="container-fluid">
+<div id="main-content" class="container-fluid">
     <h2>Add a Category</h2>
         <hr>
             <form action="{{ url_for('insert_category') }}" method="POST">
