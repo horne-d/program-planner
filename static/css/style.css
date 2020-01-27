@@ -13,8 +13,9 @@ html, body {
     height: auto;
 }
 
-div#main-content {
-    padding-bottom: 40px;
+div#main-content,
+div#programs{
+    padding-bottom: 80px;
 }
 
 .title-screen {
