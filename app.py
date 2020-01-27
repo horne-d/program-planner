@@ -53,7 +53,7 @@ def update_program(program_id):
 @app.route('/delete_program/<program_id>')
 def delete_program(program_id):
     mongo.db.programs.remove({'_id': ObjectId(program_id)})
-    return redirect(url_for('get_programs#programs'))
+    return redirect(url_for('get_programs'))
 
 @app.route('/get_categories')
 def get_categories():
