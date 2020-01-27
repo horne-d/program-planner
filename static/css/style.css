@@ -199,6 +199,16 @@ p.help-answer {
     .card-columns {
         column-count: 1;
     }
+    .title-screen h1 {
+        font-size: 80px;
+        line-height: 75px;
+    }
+    .bg-primary {
+        background-color: rgba(0,0,0) !important;
+    }
+    li.nav-item {
+        padding: 10px 0;
+    }
 }
 
 @media (min-width: 768px) {
