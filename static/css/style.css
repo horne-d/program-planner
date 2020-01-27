@@ -199,6 +199,7 @@ p.help-answer {
     .title-screen h1 {
         font-size: 80px;
         line-height: 75px;
+        top: 50vh;
     }
     .bg-primary {
         background-color: rgba(0,0,0) !important;
