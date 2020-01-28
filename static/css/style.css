@@ -18,8 +18,8 @@ html, body {
     padding-right: 90px !important;
 }
 
-div#main-content,
-div#programs{
+#main-content,
+#programs{
     padding-bottom: 110px;
 }
 
