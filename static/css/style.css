@@ -212,6 +212,10 @@ p.help-answer {
     li.nav-item {
         padding: 10px 0;
     }
+    .container-fluid {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
 }
 
 @media (min-width: 576px) {
