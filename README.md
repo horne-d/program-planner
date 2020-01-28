@@ -71,6 +71,10 @@ Updating Mongo on my machine helped erase the previous issue and I could allow t
 
 Through testing, feedback from the users enabled me to edit how the application looked. Initially I used bootstrap cards to display each program, but was found when a large number of programs were listed, that there was a lag in the page loading. Also, some of the programs did not list correct, which is why I then turned to tables which enabled quick and easy to read data.
 
+I have validated HTML code on the following: https://www.freeformatter.com/html-validator.html
+I have validated the CSS files on the following: http://csslint.net/
+
+
 # Deployment
 My code was writted initially on Cloud 9, but turned this locally when this service was shut down. I deploted this to Github, and then linked this to Heroku so this can be ran.
 
