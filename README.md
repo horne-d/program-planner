@@ -43,8 +43,10 @@ I decided to layout each program within a table set. This allowed an easy to rea
 
 I used Adobe XD to put together some initial design ideas, along with the final design:
 
-![Mockup Homepage](static/images/Capture.JPG)
-![Phone Mockup](static/images/phonemockup.png)
+![Mockup Homepage](static/images/homepage.png)
+![Programs Mockup](static/images/programs.png)
+![Categories Mockup](static/images/categories.png)
+
 
 # Technology & Languages Used
 ### HTML
