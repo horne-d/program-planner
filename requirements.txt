@@ -17,7 +17,7 @@ keyring==3.5
 pycrypto==2.6.1
 pymongo==3.7.2
 pyparsing==2.0.1
-requests==2.21.0
+requests==2.31.0
 simplegeneric==0.8.1
 simplejson==3.3.1
 virtualenv==1.11.4
